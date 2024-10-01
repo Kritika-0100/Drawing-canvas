@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.canvas-container {
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: slategray;
+    display: inline-block;
+}
+
+#canvas {
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    cursor: crosshair;
+}
+
+.controls-above, .controls-below {
+    margin: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+}
